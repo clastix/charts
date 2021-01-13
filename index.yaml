@@ -3,10 +3,10 @@ entries:
   capsule:
   - apiVersion: v2
     appVersion: 0.0.3
-    created: "2021-01-13T21:18:37.369698559Z"
+    created: "2021-01-13T22:49:40.392615643Z"
     description: A Helm chart to deploy the Capsule Operator for easily implementing,
       managing, and maintaining mutitenancy and access control in Kubernetes.
-    digest: b1bb5ee4737fd399ab45d6901dd7e15811db07012cde4e06894f31dac232d871
+    digest: 58255e044bf0842584ee3231fc08095862da179a0477b3e88095133f04e3fb45
     home: https://github.com/clastix/capsule
     icon: https://github.com/clastix/capsule/blob/master/assets/logo/space-capsule3.png
     keywords:
@@ -29,7 +29,7 @@ entries:
     version: 0.0.7
   - apiVersion: v2
     appVersion: 0.0.3
-    created: "2021-01-13T21:18:37.368452243Z"
+    created: "2021-01-13T22:49:40.390881643Z"
     description: A Helm chart to deploy the Capsule Operator for easily implementing,
       managing, and maintaining mutitenancy and access control in Kubernetes.
     digest: 95370b2a79371011ca76452bbf823af987b96cebe35ff2c735db4ca9a38e53af
@@ -56,7 +56,7 @@ entries:
   capsule-proxy:
   - apiVersion: v2
     appVersion: 0.0.5
-    created: "2021-01-13T21:18:37.37052917Z"
+    created: "2021-01-13T22:49:40.393523442Z"
     description: A Helm chart for Kubernetes
     digest: 38f89e247c7a87dbb329dfab0c18226a681b1941000a7c8ba7ab3979699b5574
     name: capsule-proxy
@@ -64,4 +64,4 @@ entries:
     urls:
     - https://clastix.github.io/charts/capsule-proxy-0.1.0.tgz
     version: 0.1.0
-generated: "2021-01-13T21:18:37.367315728Z"
+generated: "2021-01-13T22:49:40.389588344Z"
