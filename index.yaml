@@ -3,7 +3,33 @@ entries:
   capsule:
   - apiVersion: v2
     appVersion: 0.0.4
-    created: "2021-01-14T18:22:48.189657494Z"
+    created: "2021-01-15T08:44:32.760901256Z"
+    description: A Helm chart to deploy the Capsule Operator for easily implementing,
+      managing, and maintaining mutitenancy and access control in Kubernetes.
+    digest: b7973b5b1f2bdd88909210fe2ca22d4dd4baa12301b53a44417d27b33953626d
+    home: https://github.com/clastix/capsule
+    icon: https://github.com/clastix/capsule/blob/master/assets/logo/space-capsule3.png
+    keywords:
+    - kubernetes
+    - operator
+    - multi-tenancy
+    - multi-tenant
+    - multitenancy
+    - multitenant
+    - namespace
+    maintainers:
+    - email: hello@clastix.io
+      name: Clastix Labs Team
+    name: capsule
+    sources:
+    - https://github.com/clastix/capsule
+    type: application
+    urls:
+    - https://clastix.github.io/charts/capsule-0.0.9.tgz
+    version: 0.0.9
+  - apiVersion: v2
+    appVersion: 0.0.4
+    created: "2021-01-15T08:44:32.75960093Z"
     description: A Helm chart to deploy the Capsule Operator for easily implementing,
       managing, and maintaining mutitenancy and access control in Kubernetes.
     digest: beca0ba029384850b0d8b40eeddbe749a9c36cefe043c81bde5d0a97a1fa338d
@@ -29,7 +55,7 @@ entries:
     version: 0.0.8
   - apiVersion: v2
     appVersion: 0.0.3
-    created: "2021-01-14T18:22:48.188517688Z"
+    created: "2021-01-15T08:44:32.758522708Z"
     description: A Helm chart to deploy the Capsule Operator for easily implementing,
       managing, and maintaining mutitenancy and access control in Kubernetes.
     digest: 58255e044bf0842584ee3231fc08095862da179a0477b3e88095133f04e3fb45
@@ -55,7 +81,7 @@ entries:
     version: 0.0.7
   - apiVersion: v2
     appVersion: 0.0.3
-    created: "2021-01-14T18:22:48.187328082Z"
+    created: "2021-01-15T08:44:32.757367685Z"
     description: A Helm chart to deploy the Capsule Operator for easily implementing,
       managing, and maintaining mutitenancy and access control in Kubernetes.
     digest: 95370b2a79371011ca76452bbf823af987b96cebe35ff2c735db4ca9a38e53af
@@ -82,7 +108,7 @@ entries:
   capsule-proxy:
   - apiVersion: v2
     appVersion: 0.0.5
-    created: "2021-01-14T18:22:48.190333697Z"
+    created: "2021-01-15T08:44:32.761631971Z"
     description: A Helm chart for Kubernetes
     digest: 38f89e247c7a87dbb329dfab0c18226a681b1941000a7c8ba7ab3979699b5574
     name: capsule-proxy
@@ -90,4 +116,4 @@ entries:
     urls:
     - https://clastix.github.io/charts/capsule-proxy-0.1.0.tgz
     version: 0.1.0
-generated: "2021-01-14T18:22:48.185030171Z"
+generated: "2021-01-15T08:44:32.755979757Z"
