@@ -3,10 +3,10 @@ entries:
   capsule:
   - apiVersion: v2
     appVersion: 0.0.4
-    created: "2021-03-05T21:50:59.707703457Z"
+    created: "2021-03-06T14:06:45.305436238Z"
     description: A Helm chart to deploy the Capsule Operator for easily implementing,
       managing, and maintaining mutitenancy and access control in Kubernetes.
-    digest: 5284ed5fd14e6ef989ba76a342ec3faae8e81c79b5f163500300273e0d5f679c
+    digest: 6d5f79535f2ce36fa71a78c0e11f55d96f850db5dc205a81460bcd41106c1481
     home: https://github.com/clastix/capsule
     icon: https://github.com/clastix/capsule/raw/master/assets/logo/capsule_small.png
     keywords:
@@ -29,7 +29,7 @@ entries:
     version: 0.0.13
   - apiVersion: v2
     appVersion: 0.0.4
-    created: "2021-03-05T21:50:59.706627558Z"
+    created: "2021-03-06T14:06:45.302597646Z"
     description: A Helm chart to deploy the Capsule Operator for easily implementing,
       managing, and maintaining mutitenancy and access control in Kubernetes.
     digest: 3aed9ea88f25564966a4e9ce7c0f38ff8d7799f26d7440abc5422ca2a9484361
@@ -55,7 +55,7 @@ entries:
     version: 0.0.12
   - apiVersion: v2
     appVersion: 0.0.4
-    created: "2021-03-05T21:50:59.705522359Z"
+    created: "2021-03-06T14:06:45.301579312Z"
     description: A Helm chart to deploy the Capsule Operator for easily implementing,
       managing, and maintaining mutitenancy and access control in Kubernetes.
     digest: c7a5ed7dfd3526e8c5847920405c22c6e6aa5537b6c6cfd7540d5838594bc1ce
@@ -81,7 +81,7 @@ entries:
     version: 0.0.11
   - apiVersion: v2
     appVersion: 0.0.4
-    created: "2021-03-05T21:50:59.70378116Z"
+    created: "2021-03-06T14:06:45.300506878Z"
     description: A Helm chart to deploy the Capsule Operator for easily implementing,
       managing, and maintaining mutitenancy and access control in Kubernetes.
     digest: 544fb4a45b70de071678c07ced8025fc87cf09d80b7e273d2cebfe8af4a1a398
@@ -107,7 +107,7 @@ entries:
     version: 0.0.10
   - apiVersion: v2
     appVersion: 0.0.4
-    created: "2021-03-05T21:50:59.711882055Z"
+    created: "2021-03-06T14:06:45.309300363Z"
     description: A Helm chart to deploy the Capsule Operator for easily implementing,
       managing, and maintaining mutitenancy and access control in Kubernetes.
     digest: bd7cae969bbb21f9eba49b17930117b06eb82f2a5f35c576977b43ba5f142879
@@ -133,7 +133,7 @@ entries:
     version: 0.0.9
   - apiVersion: v2
     appVersion: 0.0.4
-    created: "2021-03-05T21:50:59.710876555Z"
+    created: "2021-03-06T14:06:45.30827843Z"
     description: A Helm chart to deploy the Capsule Operator for easily implementing,
       managing, and maintaining mutitenancy and access control in Kubernetes.
     digest: beca0ba029384850b0d8b40eeddbe749a9c36cefe043c81bde5d0a97a1fa338d
@@ -159,7 +159,7 @@ entries:
     version: 0.0.8
   - apiVersion: v2
     appVersion: 0.0.3
-    created: "2021-03-05T21:50:59.709876156Z"
+    created: "2021-03-06T14:06:45.307249897Z"
     description: A Helm chart to deploy the Capsule Operator for easily implementing,
       managing, and maintaining mutitenancy and access control in Kubernetes.
     digest: 58255e044bf0842584ee3231fc08095862da179a0477b3e88095133f04e3fb45
@@ -185,7 +185,7 @@ entries:
     version: 0.0.7
   - apiVersion: v2
     appVersion: 0.0.3
-    created: "2021-03-05T21:50:59.708758356Z"
+    created: "2021-03-06T14:06:45.306348067Z"
     description: A Helm chart to deploy the Capsule Operator for easily implementing,
       managing, and maintaining mutitenancy and access control in Kubernetes.
     digest: 95370b2a79371011ca76452bbf823af987b96cebe35ff2c735db4ca9a38e53af
@@ -212,7 +212,7 @@ entries:
   capsule-proxy:
   - apiVersion: v2
     appVersion: 0.0.5
-    created: "2021-03-05T21:50:59.713538154Z"
+    created: "2021-03-06T14:06:45.309906783Z"
     description: A Helm chart for Kubernetes
     digest: 38f89e247c7a87dbb329dfab0c18226a681b1941000a7c8ba7ab3979699b5574
     name: capsule-proxy
@@ -220,4 +220,4 @@ entries:
     urls:
     - https://clastix.github.io/charts/capsule-proxy-0.1.0.tgz
     version: 0.1.0
-generated: "2021-03-05T21:50:59.70236156Z"
+generated: "2021-03-06T14:06:45.299245837Z"
