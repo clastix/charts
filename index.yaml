@@ -3,58 +3,6 @@ entries:
   capsule:
   - apiVersion: v2
     appVersion: 0.0.4
-    created: "2021-03-12T22:15:32.986867576Z"
-    description: A Helm chart to deploy the Capsule Operator for easily implementing,
-      managing, and maintaining mutitenancy and access control in Kubernetes.
-    digest: c42a5622f199ed106365a8f857f50683f0329bea400f768db50001fb8c987857
-    home: https://github.com/clastix/capsule
-    icon: https://github.com/clastix/capsule/raw/master/assets/logo/capsule_small.png
-    keywords:
-    - kubernetes
-    - operator
-    - multi-tenancy
-    - multi-tenant
-    - multitenancy
-    - multitenant
-    - namespace
-    maintainers:
-    - email: hello@clastix.io
-      name: Clastix Labs Team
-    name: capsule
-    sources:
-    - https://github.com/clastix/capsule
-    type: application
-    urls:
-    - https://clastix.github.io/charts/capsule-0.0.17.tgz
-    version: 0.0.17
-  - apiVersion: v2
-    appVersion: 0.0.4
-    created: "2021-03-12T22:15:32.98585205Z"
-    description: A Helm chart to deploy the Capsule Operator for easily implementing,
-      managing, and maintaining mutitenancy and access control in Kubernetes.
-    digest: b3604194dfac3844455aa4e6637f980d2826c032793d62c96cee4d94092454e0
-    home: https://github.com/clastix/capsule
-    icon: https://github.com/clastix/capsule/raw/master/assets/logo/capsule_small.png
-    keywords:
-    - kubernetes
-    - operator
-    - multi-tenancy
-    - multi-tenant
-    - multitenancy
-    - multitenant
-    - namespace
-    maintainers:
-    - email: hello@clastix.io
-      name: Clastix Labs Team
-    name: capsule
-    sources:
-    - https://github.com/clastix/capsule
-    type: application
-    urls:
-    - https://clastix.github.io/charts/capsule-0.0.16.tgz
-    version: 0.0.16
-  - apiVersion: v2
-    appVersion: 0.0.4
     created: "2021-03-12T22:15:32.984879524Z"
     description: A Helm chart to deploy the Capsule Operator for easily implementing,
       managing, and maintaining mutitenancy and access control in Kubernetes.
