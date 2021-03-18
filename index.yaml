@@ -3,7 +3,7 @@ entries:
   capsule:
   - apiVersion: v2
     appVersion: 0.0.4
-    created: "2021-03-18T15:07:12.34139657Z"
+    created: "2021-03-18T16:05:01.941392727Z"
     description: A Helm chart to deploy the Capsule Operator for easily implementing,
       managing, and maintaining mutitenancy and access control in Kubernetes.
     digest: c021ca8f9023259427e3470e38eb4403de51c4a96a050a32cb30e91809edb16e
@@ -29,7 +29,7 @@ entries:
     version: 0.0.18
   - apiVersion: v2
     appVersion: 0.0.4
-    created: "2021-03-18T15:07:12.339943346Z"
+    created: "2021-03-18T16:05:01.940068725Z"
     description: A Helm chart to deploy the Capsule Operator for easily implementing,
       managing, and maintaining mutitenancy and access control in Kubernetes.
     digest: ce4222e61ce0c4708e643055f95e8a15760aa1420884c7ffb3eb08662c0eaba1
@@ -55,7 +55,7 @@ entries:
     version: 0.0.17
   - apiVersion: v2
     appVersion: 0.0.4
-    created: "2021-03-18T15:07:12.337411929Z"
+    created: "2021-03-18T16:05:01.938984024Z"
     description: A Helm chart to deploy the Capsule Operator for easily implementing,
       managing, and maintaining mutitenancy and access control in Kubernetes.
     digest: b3604194dfac3844455aa4e6637f980d2826c032793d62c96cee4d94092454e0
@@ -81,7 +81,7 @@ entries:
     version: 0.0.16
   - apiVersion: v2
     appVersion: 0.0.4
-    created: "2021-03-18T15:07:12.336250429Z"
+    created: "2021-03-18T16:05:01.937403023Z"
     description: A Helm chart to deploy the Capsule Operator for easily implementing,
       managing, and maintaining mutitenancy and access control in Kubernetes.
     digest: 6d5f79535f2ce36fa71a78c0e11f55d96f850db5dc205a81460bcd41106c1481
@@ -107,7 +107,7 @@ entries:
     version: 0.0.13
   - apiVersion: v2
     appVersion: 0.0.4
-    created: "2021-03-18T15:07:12.335087429Z"
+    created: "2021-03-18T16:05:01.936054321Z"
     description: A Helm chart to deploy the Capsule Operator for easily implementing,
       managing, and maintaining mutitenancy and access control in Kubernetes.
     digest: 3aed9ea88f25564966a4e9ce7c0f38ff8d7799f26d7440abc5422ca2a9484361
@@ -133,7 +133,7 @@ entries:
     version: 0.0.12
   - apiVersion: v2
     appVersion: 0.0.4
-    created: "2021-03-18T15:07:12.333899328Z"
+    created: "2021-03-18T16:05:01.93497992Z"
     description: A Helm chart to deploy the Capsule Operator for easily implementing,
       managing, and maintaining mutitenancy and access control in Kubernetes.
     digest: c7a5ed7dfd3526e8c5847920405c22c6e6aa5537b6c6cfd7540d5838594bc1ce
@@ -159,7 +159,7 @@ entries:
     version: 0.0.11
   - apiVersion: v2
     appVersion: 0.0.4
-    created: "2021-03-18T15:07:12.332774031Z"
+    created: "2021-03-18T16:05:01.933931219Z"
     description: A Helm chart to deploy the Capsule Operator for easily implementing,
       managing, and maintaining mutitenancy and access control in Kubernetes.
     digest: 544fb4a45b70de071678c07ced8025fc87cf09d80b7e273d2cebfe8af4a1a398
@@ -185,7 +185,7 @@ entries:
     version: 0.0.10
   - apiVersion: v2
     appVersion: 0.0.4
-    created: "2021-03-18T15:07:12.346206882Z"
+    created: "2021-03-18T16:05:01.946123732Z"
     description: A Helm chart to deploy the Capsule Operator for easily implementing,
       managing, and maintaining mutitenancy and access control in Kubernetes.
     digest: bd7cae969bbb21f9eba49b17930117b06eb82f2a5f35c576977b43ba5f142879
@@ -211,7 +211,7 @@ entries:
     version: 0.0.9
   - apiVersion: v2
     appVersion: 0.0.4
-    created: "2021-03-18T15:07:12.344998979Z"
+    created: "2021-03-18T16:05:01.945098631Z"
     description: A Helm chart to deploy the Capsule Operator for easily implementing,
       managing, and maintaining mutitenancy and access control in Kubernetes.
     digest: beca0ba029384850b0d8b40eeddbe749a9c36cefe043c81bde5d0a97a1fa338d
@@ -237,7 +237,7 @@ entries:
     version: 0.0.8
   - apiVersion: v2
     appVersion: 0.0.3
-    created: "2021-03-18T15:07:12.343872782Z"
+    created: "2021-03-18T16:05:01.94404523Z"
     description: A Helm chart to deploy the Capsule Operator for easily implementing,
       managing, and maintaining mutitenancy and access control in Kubernetes.
     digest: 58255e044bf0842584ee3231fc08095862da179a0477b3e88095133f04e3fb45
@@ -263,7 +263,7 @@ entries:
     version: 0.0.7
   - apiVersion: v2
     appVersion: 0.0.3
-    created: "2021-03-18T15:07:12.342729984Z"
+    created: "2021-03-18T16:05:01.942696728Z"
     description: A Helm chart to deploy the Capsule Operator for easily implementing,
       managing, and maintaining mutitenancy and access control in Kubernetes.
     digest: 95370b2a79371011ca76452bbf823af987b96cebe35ff2c735db4ca9a38e53af
@@ -290,9 +290,9 @@ entries:
   capsule-proxy:
   - apiVersion: v2
     appVersion: 0.0.5
-    created: "2021-03-18T15:07:12.347704011Z"
+    created: "2021-03-18T16:05:01.947699233Z"
     description: A Helm chart for Kubernetes
-    digest: e21d37ed89bdd116279095650423dca7d8fbbeb36b3545cdb8bcb640cb4d67ce
+    digest: 16f315e3fd955ebaead354ae7d6dc96a893c8ca5dfdb7c372f262478189e8f4c
     name: capsule-proxy
     type: application
     urls:
@@ -300,7 +300,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 0.0.5
-    created: "2021-03-18T15:07:12.346893841Z"
+    created: "2021-03-18T16:05:01.946846233Z"
     description: A Helm chart for Kubernetes
     digest: 7c91e27d2b462203fd25eed1885d4b38f60c85d710cf516e3c226b367b39f55c
     name: capsule-proxy
@@ -308,4 +308,4 @@ entries:
     urls:
     - https://clastix.github.io/charts/capsule-proxy-0.1.0.tgz
     version: 0.1.0
-generated: "2021-03-18T15:07:12.331390713Z"
+generated: "2021-03-18T16:05:01.932673718Z"
