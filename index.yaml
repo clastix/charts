@@ -316,9 +316,9 @@ entries:
   capsule-proxy:
   - apiVersion: v2
     appVersion: 0.0.5
-    created: "2021-04-15T16:01:23.933401788Z"
+    created: "2021-04-16T08:12:27.044828258Z"
     description: A Helm chart for Kubernetes
-    digest: 7602fc069da30ca6c6e7aaf09444165d66ce7ba57b75702b16f47ddee72c2aff
+    digest: c307c2c7cf90921a2aa73d6c2ee3c1696a737121dc59b58e2b468444211e6df7
     name: capsule-proxy
     type: application
     urls:
@@ -354,4 +354,4 @@ entries:
     urls:
     - https://clastix.github.io/charts/capsule-proxy-0.1.0.tgz
     version: 0.1.0
-generated: "2021-04-15T16:01:23.932414005Z"
+generated: "2021-04-16T08:12:27.035918058Z"
