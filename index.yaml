@@ -394,10 +394,10 @@ entries:
   capsule-proxy:
   - apiVersion: v2
     appVersion: 0.1.1
-    created: "2021-09-29T20:43:54.158599034Z"
+    created: "2021-10-04T12:21:13.016744466Z"
     description: Helm Chart for Capsule Proxy, addon for Capsule, the multi-tenant
       Operator
-    digest: 5f5a6916d1d8ecc679e20a66f9934bd5da6c9e55f4723403d12cb5adc31cdc12
+    digest: bdaff3a3c5fcbb7904fc0e59565750b5468516ec3df61fac797d866efe188518
     name: capsule-proxy
     type: application
     urls:
@@ -454,4 +454,4 @@ entries:
     urls:
     - https://clastix.github.io/charts/capsule-proxy-0.1.0.tgz
     version: 0.1.0
-generated: "2021-09-29T20:43:54.157581322Z"
+generated: "2021-10-04T12:21:13.015550263Z"
