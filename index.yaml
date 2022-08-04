@@ -602,6 +602,33 @@ entries:
   capsule-proxy:
   - apiVersion: v2
     appVersion: 0.3.0
+    created: "2022-08-04T07:14:23.928837324Z"
+    description: Helm Chart for Capsule Proxy, addon for Capsule, the multi-tenant
+      Operator
+    digest: d72e377b9717cbf48f9627b91ebf9c1a79da82a3059f22405d023dae23691a18
+    home: https://github.com/clastix/capsule-proxy
+    icon: https://github.com/clastix/capsule/raw/master/assets/logo/capsule_small.png
+    keywords:
+    - kubernetes
+    - operator
+    - multi-tenancy
+    - multi-tenant
+    - multitenancy
+    - multitenant
+    - namespace
+    - proxy
+    maintainers:
+    - email: hello@clastix.io
+      name: Clastix Labs Team
+    name: capsule-proxy
+    sources:
+    - https://capsule.clastix.io/docs/general/proxy
+    type: application
+    urls:
+    - https://clastix.github.io/charts/capsule-proxy-0.3.1.tgz
+    version: 0.3.1
+  - apiVersion: v2
+    appVersion: 0.3.0
     created: "2022-07-22T10:06:47.652297995Z"
     description: Helm Chart for Capsule Proxy, addon for Capsule, the multi-tenant
       Operator
@@ -895,4 +922,4 @@ entries:
     urls:
     - https://clastix.github.io/charts/capsule-proxy-0.1.0.tgz
     version: 0.1.0
-generated: "2022-07-26T18:42:32.355364152Z"
+generated: "2022-08-04T07:14:23.926156581Z"
