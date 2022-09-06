@@ -925,6 +925,31 @@ entries:
   kamaji:
   - apiVersion: v2
     appVersion: 0.1.0
+    created: "2022-09-06T14:38:04.545615534Z"
+    description: Kamaji is a tool aimed to build and operate a Managed Kubernetes
+      Service with a fraction of the operational burden. With Kamaji, you can deploy
+      and operate hundreds of Kubernetes clusters as a hyper-scaler.
+    digest: 3641487afd888606348f77f87119d4b3a0c16d6717bf7651a0791bebd38d7b05
+    home: https://github.com/clastix/kamaji
+    kubeVersion: '>=1.18'
+    maintainers:
+    - email: iam@mendrugory.com
+      name: Gonzalo Gabriel Jiménez Fuentes
+    - email: dario@tranchitella.eu
+      name: Dario Tranchitella
+    - email: me@maxgio.it
+      name: Massimiliano Giovagnoli
+    - email: me@bsctl.io
+      name: Adriano Pezzuto
+    name: kamaji
+    sources:
+    - https://github.com/clastix/kamaji
+    type: application
+    urls:
+    - https://clastix.github.io/charts/kamaji-0.8.0.tgz
+    version: 0.8.0
+  - apiVersion: v2
+    appVersion: 0.1.0
     created: "2022-09-02T12:39:34.690585028Z"
     description: Kamaji is a tool aimed to build and operate a Managed Kubernetes
       Service with a fraction of the operational burden. With Kamaji, you can deploy
@@ -1098,4 +1123,4 @@ entries:
     urls:
     - https://clastix.github.io/charts/kamaji-0.1.0.tgz
     version: 0.1.0
-generated: "2022-09-06T14:37:59.594415682Z"
+generated: "2022-09-06T14:38:04.542765733Z"
