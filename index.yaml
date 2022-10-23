@@ -956,11 +956,11 @@ entries:
       catalog.cattle.io/release-name: kamaji
     apiVersion: v2
     appVersion: v0.1.1
-    created: "2022-10-23T08:38:03.561379658Z"
+    created: "2022-10-23T08:39:29.648923199Z"
     description: Kamaji is a tool aimed to build and operate a Managed Kubernetes
       Service with a fraction of the operational burden. With Kamaji, you can deploy
       and operate hundreds of Kubernetes clusters as a hyper-scaler.
-    digest: f3f0a58de243d5aaee7bb7441cf9628f478586d597d21ed262eb744196ad322f
+    digest: ff5446eaa185f635cf19a8ba4b1073441e6a0e86a8bc860f44a723a2cce25abd
     home: https://github.com/clastix/kamaji
     icon: https://github.com/clastix/kamaji/raw/master/assets/kamaji-logo.png
     kubeVersion: 1.21 - 1.25
@@ -1310,4 +1310,4 @@ entries:
     urls:
     - https://clastix.github.io/charts/kamaji-etcd-0.1.0.tgz
     version: 0.1.0
-generated: "2022-10-23T08:38:03.557232663Z"
+generated: "2022-10-23T08:39:29.646358465Z"
