@@ -1427,6 +1427,20 @@ entries:
     version: 0.1.0
   capsule-rancher-addon:
   - apiVersion: v2
+    appVersion: v0.1.1
+    created: "2023-03-16T10:25:12.059136011Z"
+    dependencies:
+    - name: cert-manager
+      repository: https://charts.jetstack.io
+      version: 1.11.0
+    description: A Helm chart for Kubernetes
+    digest: e2f5b0d89c2bd25ddbdc8aac71ab2594db168bb6753df16a6a99e050c0132216
+    name: capsule-rancher-addon
+    type: application
+    urls:
+    - https://clastix.github.io/charts/capsule-rancher-addon-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
     appVersion: v0.1.0
     created: "2023-03-14T13:50:19.7465391Z"
     dependencies:
@@ -2108,4 +2122,4 @@ entries:
     urls:
     - https://clastix.github.io/charts/kamaji-etcd-0.1.0.tgz
     version: 0.1.0
-generated: "2023-03-15T17:01:20.381507453Z"
+generated: "2023-03-16T10:25:12.053722448Z"
