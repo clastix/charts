@@ -2,6 +2,32 @@ apiVersion: v1
 entries:
   capsule:
   - apiVersion: v2
+    appVersion: 0.3.2
+    created: "2023-06-01T16:17:21.543569797Z"
+    description: A Helm chart to deploy the Capsule Operator for easily implementing,
+      managing, and maintaining mutitenancy and access control in Kubernetes.
+    digest: 515cd06fc570ae8bf44626f3a1c03af2cdde7bdfbf26192a8215f0f4a8472545
+    home: https://github.com/clastix/capsule
+    icon: https://github.com/clastix/capsule/raw/master/assets/logo/capsule_small.png
+    keywords:
+    - kubernetes
+    - operator
+    - multi-tenancy
+    - multi-tenant
+    - multitenancy
+    - multitenant
+    - namespace
+    maintainers:
+    - email: hello@clastix.io
+      name: Clastix Labs Team
+    name: capsule
+    sources:
+    - https://github.com/clastix/capsule
+    type: application
+    urls:
+    - https://clastix.github.io/charts/capsule-0.4.3.tgz
+    version: 0.4.3
+  - apiVersion: v2
     appVersion: 0.3.1
     created: "2023-04-18T15:04:51.839860721Z"
     description: A Helm chart to deploy the Capsule Operator for easily implementing,
@@ -2392,4 +2418,4 @@ entries:
     urls:
     - https://clastix.github.io/charts/kamaji-etcd-0.1.0.tgz
     version: 0.1.0
-generated: "2023-06-01T13:40:55.389789285Z"
+generated: "2023-06-01T16:17:21.540933155Z"
