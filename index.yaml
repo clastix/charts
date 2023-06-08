@@ -1694,6 +1694,32 @@ entries:
     urls:
     - https://clastix.github.io/charts/capsule-rancher-addon-0.1.0.tgz
     version: 0.1.0
+  console:
+  - annotations:
+      catalog.cattle.io/certified: partner
+      catalog.cattle.io/display-name: Clastix Console
+      catalog.cattle.io/release-name: clastix-console
+    apiVersion: v2
+    appVersion: 0.0.1
+    created: "2023-06-08T08:03:16.934159144Z"
+    description: Kamaji is a tool aimed to build and operate Kubernetes at scale with
+      a fraction of the operational burden. This chart install a console for Kamaji.
+    digest: 64c46e09b52c927818152623434859e7d1ca9c13eb89c21fd1a9a3c4e10a9d34
+    home: https://github.com/clastix/console
+    icon: https://github.com/clastix/console/raw/master/public/icon.png
+    kubeVersion: '>=1.21.0-0'
+    maintainers:
+    - email: dario@tranchitella.eu
+      name: Dario Tranchitella
+    - email: me@bsctl.io
+      name: Adriano Pezzuto
+    name: console
+    sources:
+    - https://github.com/clastix/console
+    type: application
+    urls:
+    - https://clastix.github.io/charts/console-0.0.1.tgz
+    version: 0.0.1
   kamaji:
   - annotations:
       catalog.cattle.io/certified: partner
@@ -2446,4 +2472,4 @@ entries:
     urls:
     - https://clastix.github.io/charts/kamaji-etcd-0.1.0.tgz
     version: 0.1.0
-generated: "2023-06-05T15:18:38.6462643Z"
+generated: "2023-06-08T08:03:16.93198584Z"
