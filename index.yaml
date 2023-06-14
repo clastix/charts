@@ -1750,6 +1750,37 @@ entries:
   kamaji:
   - annotations:
       catalog.cattle.io/certified: partner
+      catalog.cattle.io/display-name: Kamaji
+      catalog.cattle.io/release-name: kamaji
+    apiVersion: v2
+    appVersion: v0.3.0
+    created: "2023-06-14T06:23:20.038030345Z"
+    description: Kamaji deploys and operates Kubernetes at scale with a fraction of
+      the operational burden. Kamaji turns any Kubernetes cluster into an “admin cluster”
+      to orchestrate other Kubernetes clusters called “tenant clusters”. Kamaji is
+      special because the Control Plane components are running in a single pod instead
+      of dedicated machines. This solution makes running multiple Control Planes cheaper
+      and easier to deploy and operate.
+    digest: 01ee69554cece071b2fe7f29a425d31a61209f61863046a7d8a592eb9475173f
+    home: https://github.com/clastix/kamaji
+    icon: https://github.com/clastix/kamaji/raw/master/assets/logo-colored.png
+    kubeVersion: '>=1.21.0-0'
+    maintainers:
+    - email: dario@tranchitella.eu
+      name: Dario Tranchitella
+    - email: me@maxgio.it
+      name: Massimiliano Giovagnoli
+    - email: me@bsctl.io
+      name: Adriano Pezzuto
+    name: kamaji
+    sources:
+    - https://github.com/clastix/kamaji
+    type: application
+    urls:
+    - https://clastix.github.io/charts/kamaji-0.12.1.tgz
+    version: 0.12.1
+  - annotations:
+      catalog.cattle.io/certified: partner
       catalog.cattle.io/display-name: Kamaji - Managed Kubernetes Service
       catalog.cattle.io/release-name: kamaji
     apiVersion: v2
@@ -2527,4 +2558,4 @@ entries:
     urls:
     - https://clastix.github.io/charts/kamaji-etcd-0.1.0.tgz
     version: 0.1.0
-generated: "2023-06-12T12:40:37.257686341Z"
+generated: "2023-06-14T06:23:20.033960998Z"
