@@ -1126,10 +1126,10 @@ entries:
     version: 0.4.6
   - apiVersion: v2
     appVersion: 0.4.4
-    created: "2023-09-29T13:13:48.452314549Z"
+    created: "2023-09-29T13:54:59.384227059Z"
     description: Helm Chart for Capsule Proxy, addon for Capsule, the multi-tenant
       Operator
-    digest: 2609db209f2546a70d063e0161527b6fb8d9d6467c85703cbb667b3151881208
+    digest: de9373ec4d5be274bd7f702994dee0ad9f1cd8f19aba4b1bf6f1cc3db8c9c91b
     home: https://github.com/clastix/capsule-proxy
     icon: https://github.com/clastix/capsule/raw/master/assets/logo/capsule_small.png
     keywords:
@@ -2868,4 +2868,4 @@ entries:
     urls:
     - https://clastix.github.io/charts/kamaji-etcd-0.1.0.tgz
     version: 0.1.0
-generated: "2023-09-29T13:13:48.449935829Z"
+generated: "2023-09-29T13:54:59.382790274Z"
