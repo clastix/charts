@@ -1,0 +1,4 @@
+# Ignore Capsule Packages
+ignore:
+  - name: capsule
+  - name: capsule-proxy
