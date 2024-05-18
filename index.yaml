@@ -3023,6 +3023,25 @@ entries:
   kamaji-etcd:
   - apiVersion: v2
     appVersion: 3.5.6
+    created: "2024-05-18T16:18:33.668363533Z"
+    description: Helm chart for deploying a multi-tenant `etcd` cluster.
+    digest: 5602b280c29265e6417697916f5d2ff043fe3b784bc4f055e272ebc96e758f13
+    home: https://github.com/clastix/kamaji-etcd
+    kubeVersion: '>=1.22.0-0'
+    maintainers:
+    - email: me@bsctl.io
+      name: Adriano Pezzuto
+    - email: dario@tranchitella.eu
+      name: Dario Tranchitella
+    name: kamaji-etcd
+    sources:
+    - https://github.com/clastix/kamaji-etcd
+    type: application
+    urls:
+    - https://clastix.github.io/charts/kamaji-etcd-0.5.2.tgz
+    version: 0.5.2
+  - apiVersion: v2
+    appVersion: 3.5.6
     created: "2023-12-14T10:07:05.300560916Z"
     description: Helm chart for deploying a multi-tenant `etcd` cluster.
     digest: 973c452926d7773588abb992d109454f1f0999bf8a52f43cca121afa8eb0bbd9
@@ -3249,4 +3268,4 @@ entries:
     urls:
     - https://clastix.github.io/charts/kamaji-etcd-0.1.0.tgz
     version: 0.1.0
-generated: "2024-04-24T16:18:42.883786663Z"
+generated: "2024-05-18T16:18:33.667383648Z"
