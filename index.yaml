@@ -1852,6 +1852,22 @@ entries:
     urls:
     - https://clastix.github.io/charts/console-0.0.1.tgz
     version: 0.0.1
+  k8sgpu:
+  - apiVersion: v2
+    appVersion: v1.1.2
+    created: "2024-06-21T18:56:25.08080164Z"
+    description: K8sGPU is a Virtual Kubelet implementation to access remote GPU resources
+    digest: 3c197a45c740db9c7872c23372af5f0cd63fc1d3601b3d9fb3b9a37ded4f57a2
+    maintainers:
+    - email: dario@clastix.io
+      name: Dario Tranchitella
+    - email: adriano@clastix.io
+      name: Adriano Pezzuto
+    name: k8sgpu
+    type: application
+    urls:
+    - https://clastix.github.io/charts/k8sgpu-1.1.2.tgz
+    version: 1.1.2
   kamaji:
   - annotations:
       catalog.cattle.io/certified: partner
@@ -3287,4 +3303,4 @@ entries:
     urls:
     - https://clastix.github.io/charts/kamaji-etcd-0.1.0.tgz
     version: 0.1.0
-generated: "2024-05-19T10:10:13.620187784Z"
+generated: "2024-06-21T18:56:25.080129319Z"
