@@ -1874,6 +1874,34 @@ entries:
       catalog.cattle.io/display-name: Kamaji
       catalog.cattle.io/release-name: kamaji
     apiVersion: v2
+    appVersion: v0.6.1
+    created: "2024-06-24T16:38:37.04265014Z"
+    description: Kamaji is the Hosted Control Plane Manager for Kubernetes.
+    digest: 232d6fa2f60c5357ccef6ac9fe60811556b42cf857d356b45f1ae74f4ae6aa4f
+    home: https://github.com/clastix/kamaji
+    icon: https://github.com/clastix/kamaji/raw/master/assets/logo-colored.png
+    kubeVersion: '>=1.21.0-0'
+    maintainers:
+    - email: dario@tranchitella.eu
+      name: Dario Tranchitella
+      url: https://clastix.io
+    - email: me@maxgio.it
+      name: Massimiliano Giovagnoli
+    - email: me@bsctl.io
+      name: Adriano Pezzuto
+      url: https://clastix.io
+    name: kamaji
+    sources:
+    - https://github.com/clastix/kamaji
+    type: application
+    urls:
+    - https://clastix.github.io/charts/kamaji-0.16.1.tgz
+    version: 0.16.1
+  - annotations:
+      catalog.cattle.io/certified: partner
+      catalog.cattle.io/display-name: Kamaji
+      catalog.cattle.io/release-name: kamaji
+    apiVersion: v2
     appVersion: v0.6.0
     created: "2024-05-19T10:10:13.622903841Z"
     description: Kamaji is the Hosted Control Plane Manager for Kubernetes.
@@ -3303,4 +3331,4 @@ entries:
     urls:
     - https://clastix.github.io/charts/kamaji-etcd-0.1.0.tgz
     version: 0.1.0
-generated: "2024-06-21T18:56:25.080129319Z"
+generated: "2024-06-24T16:38:37.039554453Z"
