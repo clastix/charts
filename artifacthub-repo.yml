@@ -1,3 +1,5 @@
+# Artifact Hub repository metadata file
+repositoryID: b348d8d6-f5ea-467c-9980-6f359906694d
 # Ignore Capsule Packages
 ignore:
   - name: capsule
