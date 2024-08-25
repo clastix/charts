@@ -3140,6 +3140,54 @@ entries:
   kamaji-etcd:
   - annotations:
       artifacthub.io/changes: |
+        - kind: added
+          description: Configuring DataStore name
+        - kind: added
+          description: Support for imagePullSecrets
+        - kind: added
+          description: Use external defrag cronjob
+        - kind: added
+          description: Use external backup cronjob
+        - kind: added
+          description: Refactoring of the restore job
+        - kind: fixed
+          description: Missing release fullnameOverride
+        - kind: fixed
+          description: Job selector for metrics scraping
+        - kind: fixed
+          description: Service Account for metrics scraping
+      artifacthub.io/links: |
+        - name: CLASTIX
+          url: https://clastix.io
+        - name: Kamaji
+          url: https://kamaji.clastix.io
+        - name: support
+          url: https://clastix.io/support
+      artifacthub.io/operator: "true"
+      artifacthub.io/operatorCapabilities: Full Lifecycle
+    apiVersion: v2
+    appVersion: 3.5.6
+    created: "2024-08-25T14:37:30.128787584Z"
+    description: Helm chart for deploying a multi-tenant `etcd` cluster.
+    digest: aedd7d42e6e0103d811b4336304e2856804da00fa746247d899922ef039faaad
+    home: https://github.com/clastix/kamaji-etcd
+    kubeVersion: '>=1.22.0-0'
+    maintainers:
+    - email: adriano@clastix.io
+      name: Adriano Pezzuto
+      url: https://clastix.io
+    - email: dario@clastix.io
+      name: Dario Tranchitella
+      url: https://clastix.io
+    name: kamaji-etcd
+    sources:
+    - https://github.com/clastix/kamaji-etcd
+    type: application
+    urls:
+    - https://clastix.github.io/charts/kamaji-etcd-0.8.0.tgz
+    version: 0.8.0
+  - annotations:
+      artifacthub.io/changes: |
         - chore(gh): ci for helm-docs
         - feat: config datastore name
         - feat: add support for imagePullSecrets
@@ -3440,4 +3488,4 @@ entries:
     urls:
     - https://clastix.github.io/charts/kamaji-etcd-0.1.0.tgz
     version: 0.1.0
-generated: "2024-08-10T15:40:03.463990217Z"
+generated: "2024-08-25T14:37:30.127915055Z"
