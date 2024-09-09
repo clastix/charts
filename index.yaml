@@ -1854,6 +1854,21 @@ entries:
     version: 0.0.1
   k8sgpu:
   - apiVersion: v2
+    appVersion: v1.2.3
+    created: "2024-09-09T15:32:48.14170934Z"
+    description: K8sGPU is a Virtual Kubelet implementation to access remote GPU resources
+    digest: 706b617fbfbcbf44c819433e4042e9025d49a80fd449336b7a2c76466c8c3ac2
+    maintainers:
+    - email: dario@clastix.io
+      name: Dario Tranchitella
+    - email: adriano@clastix.io
+      name: Adriano Pezzuto
+    name: k8sgpu
+    type: application
+    urls:
+    - https://clastix.github.io/charts/k8sgpu-1.2.3.tgz
+    version: 1.2.3
+  - apiVersion: v2
     appVersion: v1.2.2
     created: "2024-08-02T13:47:22.154413919Z"
     description: K8sGPU is a Virtual Kubelet implementation to access remote GPU resources
@@ -3488,4 +3503,4 @@ entries:
     urls:
     - https://clastix.github.io/charts/kamaji-etcd-0.1.0.tgz
     version: 0.1.0
-generated: "2024-08-25T14:37:30.127915055Z"
+generated: "2024-09-09T15:32:48.141047072Z"
