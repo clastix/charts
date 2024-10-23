@@ -3,13 +3,13 @@ entries:
   calico-cni:
   - apiVersion: v2
     appVersion: v3.28.1
-    created: "2024-10-23T13:19:27.754833252Z"
+    created: "2024-10-23T13:31:07.276008851Z"
     description: 'This Helm chart has been created based on the reference minimalistic
       Calico deployment.  We do not use the Helm Chart Calico Operator provided by
       Tigera. This chart is based on a lightweigth Calico''s configuration  manifest
       and it should work in most of the cases.  This chart is maintained by [Clastix
       Labs](https://github.com/clastix). '
-    digest: 290121f2e3d0366a008fb2f207e62181e7397fb12a82a88fa89d30c8fa7b1b4c
+    digest: f22255f8bdaa8c7ba9b1570e301883c031626d431d50e41abbf1a2c89e9697be
     home: https://github.com/clastix/calico-cni-minimal
     maintainers:
     - email: labs@clastix.io
@@ -3539,4 +3539,4 @@ entries:
     urls:
     - https://clastix.github.io/charts/kamaji-etcd-0.1.0.tgz
     version: 0.1.0
-generated: "2024-10-23T13:19:27.752486171Z"
+generated: "2024-10-23T13:31:07.27444344Z"
