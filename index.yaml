@@ -3607,4 +3607,21 @@ entries:
     urls:
     - https://clastix.github.io/charts/kamaji-etcd-0.1.0.tgz
     version: 0.1.0
-generated: "2024-10-29T14:57:03.946917742Z"
+  local-path-provisioner:
+  - apiVersion: v1
+    appVersion: v0.0.30
+    created: "2024-11-09T19:39:29.744154467Z"
+    description: Use HostPath for persistent local storage with Kubernetes
+    digest: 94c746e6ad991b9836f7d79b00d03333914510d104a2016e6d525ae43c484cae
+    home: https://github.com/rancher/local-path-provisioner
+    keywords:
+    - storage
+    - hostpath
+    kubeVersion: '>=1.12.0-r0'
+    name: local-path-provisioner
+    sources:
+    - https://github.com/rancher/local-path-provisioner.git
+    urls:
+    - https://clastix.github.io/charts/local-path-provisioner-0.0.30.tgz
+    version: 0.0.30
+generated: "2024-11-09T19:39:29.742408282Z"
