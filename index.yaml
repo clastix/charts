@@ -3231,6 +3231,40 @@ entries:
   kamaji-etcd:
   - annotations:
       artifacthub.io/changes: |
+        - kind: fixed
+          description: typo on RoleBinding name
+      artifacthub.io/links: |
+        - name: CLASTIX
+          url: https://clastix.io
+        - name: Kamaji
+          url: https://kamaji.clastix.io
+        - name: support
+          url: https://clastix.io/support
+      artifacthub.io/operator: "true"
+      artifacthub.io/operatorCapabilities: Full Lifecycle
+    apiVersion: v2
+    appVersion: 3.5.6
+    created: "2025-01-10T15:16:17.305134955Z"
+    description: Helm chart for deploying a multi-tenant `etcd` cluster.
+    digest: f349ede1f05bec59a5a5a86845659e42e2c9b380ff02c1e4bde4f58551e06167
+    home: https://github.com/clastix/kamaji-etcd
+    kubeVersion: '>=1.22.0-0'
+    maintainers:
+    - email: adriano@clastix.io
+      name: Adriano Pezzuto
+      url: https://clastix.io
+    - email: dario@clastix.io
+      name: Dario Tranchitella
+      url: https://clastix.io
+    name: kamaji-etcd
+    sources:
+    - https://github.com/clastix/kamaji-etcd
+    type: application
+    urls:
+    - https://clastix.github.io/charts/kamaji-etcd-0.9.1.tgz
+    version: 0.9.1
+  - annotations:
+      artifacthub.io/changes: |
         - kind: added
           description: add annotations value to datastore
       artifacthub.io/links: |
@@ -3664,4 +3698,4 @@ entries:
     urls:
     - https://clastix.github.io/charts/local-path-provisioner-0.0.30.tgz
     version: 0.0.30
-generated: "2024-11-27T14:40:35.070884396Z"
+generated: "2025-01-10T15:16:17.304238433Z"
