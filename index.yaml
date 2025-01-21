@@ -3701,10 +3701,10 @@ entries:
   vcloud-csi:
   - apiVersion: v2
     appVersion: 1.6.0
-    created: "2025-01-21T07:51:21.041655517Z"
+    created: "2025-01-21T16:23:29.369216633Z"
     description: 'Container Storage Interface (CSI) driver for VMware Cloud Director
       Named Independent Disks. Source: https://github.com/vmware/cloud-director-named-disk-csi-driver '
-    digest: db789886acd2c17130a2c98fee97f4c141c25ac72a172db5648ce180ce86a737
+    digest: 43e3f4a9c9d350b6954c63e7ce369d5760e560eaad95499cbae58634353245fe
     home: https://github.com/clastix/vcloud-csi
     icon: https://raw.githubusercontent.com/kubernetes/cloud-provider-vsphere/master/docs/vmware_logo.png
     name: vcloud-csi
@@ -3714,4 +3714,4 @@ entries:
     urls:
     - https://clastix.github.io/charts/vcloud-csi-v1.6.0.tgz
     version: v1.6.0
-generated: "2025-01-21T07:51:21.040934596Z"
+generated: "2025-01-21T16:23:29.368546234Z"
