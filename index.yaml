@@ -3255,6 +3255,40 @@ entries:
     version: 0.0.2
   kamaji-etcd:
   - annotations:
+      artifacthub.io/changes: |
+        - kind: fixed
+          description: missing resources in the `etcd` StatefulSet.
+      artifacthub.io/links: |
+        - name: CLASTIX
+          url: https://clastix.io
+        - name: Kamaji
+          url: https://kamaji.clastix.io
+        - name: support
+          url: https://clastix.io/support
+      artifacthub.io/operator: "true"
+      artifacthub.io/operatorCapabilities: Full Lifecycle
+    apiVersion: v2
+    appVersion: 3.5.6
+    created: "2025-03-17T17:09:51.983394112Z"
+    description: Helm chart for deploying a multi-tenant `etcd` cluster.
+    digest: d657dacbb2fa49b4e9e0af917b9a9c9c397c0021974e3f1f6670a03955c976e6
+    home: https://github.com/clastix/kamaji-etcd
+    kubeVersion: '>=1.22.0-0'
+    maintainers:
+    - email: adriano@clastix.io
+      name: Adriano Pezzuto
+      url: https://clastix.io
+    - email: dario@clastix.io
+      name: Dario Tranchitella
+      url: https://clastix.io
+    name: kamaji-etcd
+    sources:
+    - https://github.com/clastix/kamaji-etcd
+    type: application
+    urls:
+    - https://clastix.github.io/charts/kamaji-etcd-0.9.3.tgz
+    version: 0.9.3
+  - annotations:
       artifacthub.io/changes: "- kind: fixed\n  description: missing apiVersion and
         Kind to PVC template \n"
       artifacthub.io/links: |
@@ -3772,4 +3806,4 @@ entries:
     urls:
     - https://clastix.github.io/charts/vcloud-csi-v1.6.0.tgz
     version: v1.6.0
-generated: "2025-03-13T09:05:31.076294741Z"
+generated: "2025-03-17T17:09:51.982464501Z"
