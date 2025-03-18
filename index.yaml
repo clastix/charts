@@ -3257,6 +3257,40 @@ entries:
   - annotations:
       artifacthub.io/changes: |
         - kind: fixed
+          description: affinity and tolerations for ancillary jobs.
+      artifacthub.io/links: |
+        - name: CLASTIX
+          url: https://clastix.io
+        - name: Kamaji
+          url: https://kamaji.clastix.io
+        - name: support
+          url: https://clastix.io/support
+      artifacthub.io/operator: "true"
+      artifacthub.io/operatorCapabilities: Full Lifecycle
+    apiVersion: v2
+    appVersion: 3.5.6
+    created: "2025-03-18T11:50:56.29369187Z"
+    description: Helm chart for deploying a multi-tenant `etcd` cluster.
+    digest: 37634e7c01789e12c6fc8f3d29d325e226d926260402d54c3ef06641c7c57c8f
+    home: https://github.com/clastix/kamaji-etcd
+    kubeVersion: '>=1.22.0-0'
+    maintainers:
+    - email: adriano@clastix.io
+      name: Adriano Pezzuto
+      url: https://clastix.io
+    - email: dario@clastix.io
+      name: Dario Tranchitella
+      url: https://clastix.io
+    name: kamaji-etcd
+    sources:
+    - https://github.com/clastix/kamaji-etcd
+    type: application
+    urls:
+    - https://clastix.github.io/charts/kamaji-etcd-0.9.4.tgz
+    version: 0.9.4
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: fixed
           description: missing resources in the `etcd` StatefulSet.
       artifacthub.io/links: |
         - name: CLASTIX
@@ -3806,4 +3840,4 @@ entries:
     urls:
     - https://clastix.github.io/charts/vcloud-csi-v1.6.0.tgz
     version: v1.6.0
-generated: "2025-03-17T17:09:51.982464501Z"
+generated: "2025-03-18T11:50:56.29226284Z"
