@@ -21,6 +21,40 @@ entries:
     urls:
     - https://clastix.github.io/charts/calico-cni-3.28.1.tgz
     version: 3.28.1
+  capi-kamaji-proxmox:
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: commit
+          description: Initial commit.
+      artifacthub.io/links: |
+        - name: Clastix Labs
+          url: https://github.com/clastix
+      artifacthub.io/operator: "true"
+      artifacthub.io/operatorCapabilities: Full Lifecycle
+    apiVersion: v2
+    appVersion: 1.31.4
+    created: "2025-04-19T17:04:17.535172813Z"
+    description: A Helm chart for deploying a Kamaji Tenant Cluster on Proxmox VE
+      using Cluster API and Kamaji.
+    digest: 025e9ec1b261578f8632313f8266a29031f4d636fe311a32021d2194928c0391
+    home: https://kamaji.clastix.io
+    icon: https://cluster-api.sigs.k8s.io/images/introduction.svg
+    keywords:
+    - kubernetes
+    - helm
+    - cluster-api
+    - kamaji
+    - proxmox
+    maintainers:
+    - email: authors@clastix.labs
+      name: Clastix Labs
+    name: capi-kamaji-proxmox
+    sources:
+    - https://github.com/clastix/cluster-api-kamaji-proxmox
+    type: application
+    urls:
+    - https://clastix.github.io/charts/capi-kamaji-proxmox-0.0.1.tgz
+    version: 0.0.1
   capi-kamaji-vsphere:
   - annotations:
       artifacthub.io/changes: |
@@ -3959,4 +3993,4 @@ entries:
     urls:
     - https://clastix.github.io/charts/vcloud-csi-v1.6.0.tgz
     version: v1.6.0
-generated: "2025-04-15T19:53:36.336785832Z"
+generated: "2025-04-19T17:04:17.534342373Z"
