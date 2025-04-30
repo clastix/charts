@@ -66,6 +66,39 @@ entries:
       artifacthub.io/operator: "true"
       artifacthub.io/operatorCapabilities: Full Lifecycle
     apiVersion: v2
+    appVersion: 1.32.0
+    created: "2025-04-30T16:37:50.871802435Z"
+    description: A Helm chart for deploying a Kamaji Tenant Cluster on vSphere using
+      Cluster API and Kamaji.
+    digest: 293947775f8d084629596816e7c6d0ccb040f9156ab839f8afa2c685234df87d
+    home: https://kamaji.clastix.io
+    icon: https://cluster-api.sigs.k8s.io/images/introduction.svg
+    keywords:
+    - kubernetes
+    - helm
+    - cluster-api
+    - kamaji
+    - vsphere
+    maintainers:
+    - email: authors@clastix.labs
+      name: Clastix Labs
+    name: capi-kamaji-vsphere
+    sources:
+    - https://github.com/clastix/cluster-api-kamaji-vsphere
+    type: application
+    urls:
+    - https://clastix.github.io/charts/capi-kamaji-vsphere-0.1.3.tgz
+    version: 0.1.3
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: commit
+          description: Initial commit.
+      artifacthub.io/links: |
+        - name: Clastix Labs
+          url: https://github.com/clastix
+      artifacthub.io/operator: "true"
+      artifacthub.io/operatorCapabilities: Full Lifecycle
+    apiVersion: v2
     appVersion: 1.31.0
     created: "2025-04-19T17:08:25.514980706Z"
     description: A Helm chart for deploying a Kamaji Tenant Cluster on vSphere using
@@ -2229,4 +2262,4 @@ entries:
     urls:
     - https://clastix.github.io/charts/vcloud-csi-v1.6.0.tgz
     version: v1.6.0
-generated: "2025-04-19T17:08:25.513188157Z"
+generated: "2025-04-30T16:37:50.870657096Z"
