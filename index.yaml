@@ -1472,6 +1472,60 @@ entries:
     urls:
     - https://clastix.github.io/charts/kamaji-0.1.0.tgz
     version: 0.1.0
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: added
+          description: Releasing latest chart at every push
+      artifacthub.io/crds: |
+        - kind: TenantControlPlane
+          version: v1alpha1
+          name: tenantcontrolplanes.kamaji.clastix.io
+          displayName: TenantControlPlane
+          description: TenantControlPlane defines the desired state for a Control Plane backed by Kamaji.
+        - kind: DataStore
+          version: v1alpha1
+          name: datastores.kamaji.clastix.io
+          displayName: DataStore
+          description: DataStores is holding all the required details to communicate with a Datastore, such as etcd, MySQL, PostgreSQL, and NATS.
+      artifacthub.io/links: |
+        - name: CLASTIX
+          url: https://clastix.io
+        - name: support
+          url: https://clastix.io/support
+      artifacthub.io/operator: "true"
+      artifacthub.io/operatorCapabilities: full lifecycle
+      catalog.cattle.io/certified: partner
+      catalog.cattle.io/display-name: Kamaji
+      catalog.cattle.io/release-name: kamaji
+    apiVersion: v2
+    appVersion: latest
+    created: "2025-05-02T13:09:25.860259829Z"
+    dependencies:
+    - condition: kamaji-etcd.deploy
+      name: kamaji-etcd
+      repository: https://clastix.github.io/charts
+      version: '>=0.9.2'
+    description: Kamaji is the Hosted Control Plane Manager for Kubernetes.
+    digest: 26e5a4749f23b505391cf3e6b37e98fb907cee3e933e162a799353e6a2bbce73
+    home: https://github.com/clastix/kamaji
+    icon: https://github.com/clastix/kamaji/raw/master/assets/logo-colored.png
+    kubeVersion: '>=1.21.0-0'
+    maintainers:
+    - email: dario@tranchitella.eu
+      name: Dario Tranchitella
+      url: https://clastix.io
+    - email: me@maxgio.it
+      name: Massimiliano Giovagnoli
+    - email: me@bsctl.io
+      name: Adriano Pezzuto
+      url: https://clastix.io
+    name: kamaji
+    sources:
+    - https://github.com/clastix/kamaji
+    type: application
+    urls:
+    - https://clastix.github.io/charts/kamaji-0.0.0+latest.tgz
+    version: 0.0.0+latest
   kamaji-console:
   - annotations:
       catalog.cattle.io/certified: partner
@@ -2262,4 +2316,4 @@ entries:
     urls:
     - https://clastix.github.io/charts/vcloud-csi-v1.6.0.tgz
     version: v1.6.0
-generated: "2025-04-30T16:37:50.870657096Z"
+generated: "2025-05-02T13:09:25.856431864Z"
