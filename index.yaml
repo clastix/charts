@@ -1696,14 +1696,14 @@ entries:
       catalog.cattle.io/release-name: kamaji
     apiVersion: v2
     appVersion: latest
-    created: "2025-06-26T10:46:04.337155784Z"
+    created: "2025-06-26T19:02:05.016042398Z"
     dependencies:
     - condition: kamaji-etcd.deploy
       name: kamaji-etcd
       repository: https://clastix.github.io/charts
       version: '>=0.10.0'
     description: Kamaji is the Hosted Control Plane Manager for Kubernetes.
-    digest: 434aa429d769402fcdb58a5bead90eb27448897a2229b848c1a9119a3c5ee5e2
+    digest: 1828bf92a8a3a2e71d56a743c758fa8a0901e308157e4e9f5f6a9e3a8b062255
     home: https://github.com/clastix/kamaji
     icon: https://github.com/clastix/kamaji/raw/master/assets/logo-colored.png
     kubeVersion: '>=1.21.0-0'
@@ -2616,4 +2616,4 @@ entries:
     urls:
     - https://clastix.github.io/charts/vsphere-csi-0.1.0.tgz
     version: 0.1.0
-generated: "2025-06-26T10:46:04.332750694Z"
+generated: "2025-06-26T19:02:05.012023698Z"
