@@ -1941,6 +1941,40 @@ entries:
       artifacthub.io/operator: "true"
       artifacthub.io/operatorCapabilities: Full Lifecycle
     apiVersion: v2
+    appVersion: 3.5.17
+    created: "2025-07-01T13:43:33.429428465Z"
+    description: Helm chart for deploying a multi-tenant `etcd` cluster.
+    digest: 803964f6a6a371b90d6063da946cff50fe4c5b82da4fce8c7a4aed3e1218aad7
+    home: https://github.com/clastix/kamaji-etcd
+    kubeVersion: '>=1.22.0-0'
+    maintainers:
+    - email: adriano@clastix.io
+      name: Adriano Pezzuto
+      url: https://clastix.io
+    - email: dario@clastix.io
+      name: Dario Tranchitella
+      url: https://clastix.io
+    name: kamaji-etcd
+    sources:
+    - https://github.com/clastix/kamaji-etcd
+    type: application
+    urls:
+    - https://clastix.github.io/charts/kamaji-etcd-0.11.0.tgz
+    version: 0.11.0
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: fixed
+          description: affinity and tolerations for ancillary jobs.
+      artifacthub.io/links: |
+        - name: CLASTIX
+          url: https://clastix.io
+        - name: Kamaji
+          url: https://kamaji.clastix.io
+        - name: support
+          url: https://clastix.io/support
+      artifacthub.io/operator: "true"
+      artifacthub.io/operatorCapabilities: Full Lifecycle
+    apiVersion: v2
     appVersion: 3.5.16
     created: "2025-05-05T09:00:19.971701804Z"
     description: Helm chart for deploying a multi-tenant `etcd` cluster.
@@ -2616,4 +2650,4 @@ entries:
     urls:
     - https://clastix.github.io/charts/vsphere-csi-0.1.0.tgz
     version: 0.1.0
-generated: "2025-06-29T19:59:48.681286756Z"
+generated: "2025-07-01T13:43:33.428488059Z"
