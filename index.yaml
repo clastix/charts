@@ -33,6 +33,39 @@ entries:
       artifacthub.io/operatorCapabilities: Full Lifecycle
     apiVersion: v2
     appVersion: 1.31.4
+    created: "2025-07-12T16:14:44.103357042Z"
+    description: A Helm chart for deploying a Kamaji Tenant Cluster on Proxmox VE
+      using Cluster API and Kamaji.
+    digest: 2be1693c2ac7041f10a245df9510fba972ff0be26fd88df1e235ab842ab31eb4
+    home: https://kamaji.clastix.io
+    icon: https://raw.githubusercontent.com/clastix/cluster-api-kamaji-proxmox/master/assets/proxmox-icon.png
+    keywords:
+    - kubernetes
+    - helm
+    - cluster-api
+    - kamaji
+    - proxmox
+    maintainers:
+    - email: authors@clastix.labs
+      name: Clastix Labs
+    name: capi-kamaji-proxmox
+    sources:
+    - https://github.com/clastix/cluster-api-kamaji-proxmox
+    type: application
+    urls:
+    - https://clastix.github.io/charts/capi-kamaji-proxmox-0.0.3.tgz
+    version: 0.0.3
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: commit
+          description: Initial commit.
+      artifacthub.io/links: |
+        - name: Clastix Labs
+          url: https://github.com/clastix
+      artifacthub.io/operator: "true"
+      artifacthub.io/operatorCapabilities: Full Lifecycle
+    apiVersion: v2
+    appVersion: 1.31.4
     created: "2025-05-03T18:08:28.120450177Z"
     description: A Helm chart for deploying a Kamaji Tenant Cluster on Proxmox VE
       using Cluster API and Kamaji.
@@ -2716,4 +2749,4 @@ entries:
     urls:
     - https://clastix.github.io/charts/vsphere-csi-0.1.0.tgz
     version: 0.1.0
-generated: "2025-07-07T18:47:23.043878139Z"
+generated: "2025-07-12T16:14:44.102381708Z"
