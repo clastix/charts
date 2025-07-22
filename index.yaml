@@ -1965,6 +1965,31 @@ entries:
       catalog.cattle.io/display-name: Kamaji Console
       catalog.cattle.io/release-name: kamaji-console
     apiVersion: v2
+    appVersion: v0.2.1
+    created: "2025-07-22T07:03:40.252284405Z"
+    description: Kamaji deploys and operates Kubernetes at scale with a fraction of
+      the operational burden. This chart install a console for Kamaji.
+    digest: 84d8b2a72e4baf4266bc06aeb22953ee2f934a44d60ff7328c113d2c09ea1789
+    home: https://github.com/clastix/kamaji-console
+    icon: https://github.com/clastix/kamaji/raw/master/assets/logo-colored.png
+    kubeVersion: '>=1.21.0-0'
+    maintainers:
+    - email: dario@tranchitella.eu
+      name: Dario Tranchitella
+    - email: me@bsctl.io
+      name: Adriano Pezzuto
+    name: kamaji-console
+    sources:
+    - https://github.com/clastix/kamaji-console
+    type: application
+    urls:
+    - https://clastix.github.io/charts/kamaji-console-0.1.3.tgz
+    version: 0.1.3
+  - annotations:
+      catalog.cattle.io/certified: partner
+      catalog.cattle.io/display-name: Kamaji Console
+      catalog.cattle.io/release-name: kamaji-console
+    apiVersion: v2
     appVersion: v0.2.0
     created: "2025-04-07T07:47:05.214884496Z"
     description: Kamaji deploys and operates Kubernetes at scale with a fraction of
@@ -2955,4 +2980,4 @@ entries:
     urls:
     - https://clastix.github.io/charts/vsphere-csi-0.1.0.tgz
     version: 0.1.0
-generated: "2025-07-21T09:16:11.061613946Z"
+generated: "2025-07-22T07:03:40.251562928Z"
