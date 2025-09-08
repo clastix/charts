@@ -592,6 +592,59 @@ entries:
       artifacthub.io/operatorCapabilities: Full Lifecycle
     apiVersion: v2
     appVersion: 1.32.0
+    created: "2025-09-08T12:34:29.92146728Z"
+    dependencies:
+    - condition: capi-kamaji-vsphere.enabled
+      name: capi-kamaji-vsphere
+      repository: https://clastix.github.io/charts
+      version: ~0.2.6
+    - condition: vsphere-csi.enabled
+      name: vsphere-csi
+      repository: https://clastix.github.io/charts
+      version: ~0.1.2
+    - condition: cluster-autoscaler.enabled
+      name: cluster-autoscaler
+      repository: https://kubernetes.github.io/autoscaler
+      version: ~9.48.0
+    description: Helm umbrella chart for deploying Kamaji Clusters on vSphere using
+      Cluster API. Including CSI driver and cluster autoscaler. Requires separate
+      kamaji-etcd installation.
+    digest: 18cd42349ec2f6c3834637aab9b7ff93acd5596679aaa87202df6f70fff673b7
+    home: https://github.com/clastix/capi-kamaji-vsphere-full
+    icon: https://raw.githubusercontent.com/kubernetes/cloud-provider-vsphere/master/docs/vmware_logo.png
+    keywords:
+    - kubernetes
+    - cluster-api
+    - kamaji
+    - vsphere
+    - etcd
+    - csi
+    - autoscaler
+    maintainers:
+    - email: authors@clastix.labs
+      name: Clastix Labs
+      url: https://clastix.io
+    name: capi-kamaji-vsphere-full
+    sources:
+    - https://github.com/clastix/cluster-api-kamaji-vsphere
+    - https://github.com/clastix/kamaji-etcd
+    - https://github.com/clastix/vsphere-csi
+    - https://github.com/kubernetes/autoscaler
+    type: application
+    urls:
+    - https://clastix.github.io/charts/capi-kamaji-vsphere-full-1.0.1.tgz
+    version: 1.0.1
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: added
+          description: Initial umbrella chart combining Kamaji, etcd, vSphere CSI, and cluster autoscaler.
+      artifacthub.io/links: |
+        - name: Clastix Labs
+          url: https://github.com/clastix
+      artifacthub.io/operator: "true"
+      artifacthub.io/operatorCapabilities: Full Lifecycle
+    apiVersion: v2
+    appVersion: 1.32.0
     created: "2025-07-19T14:05:17.876993836Z"
     dependencies:
     - condition: capi-kamaji-vsphere.enabled
@@ -3086,4 +3139,4 @@ entries:
     urls:
     - https://clastix.github.io/charts/vsphere-csi-0.1.0.tgz
     version: 0.1.0
-generated: "2025-09-08T11:55:28.933545313Z"
+generated: "2025-09-08T12:34:29.917314925Z"
