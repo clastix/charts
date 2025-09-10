@@ -2349,6 +2349,52 @@ entries:
   kamaji-etcd:
   - annotations:
       artifacthub.io/changes: |
+        - kind: feat
+          description: improve backup and restore documentation and scripts
+          links:
+            - https://github.com/clastix/kamaji-etcd/pull/115
+            - https://github.com/clastix/kamaji-etcd/pull/117
+        - kind: feat
+          description: configurable job image repositories
+          links:
+            - https://github.com/clastix/kamaji-etcd/pull/122
+        - kind: feat
+          description: add support for cert-manager for etcd tls secrets
+          links:
+            - https://github.com/clastix/kamaji-etcd/pull/121
+      artifacthub.io/links: |
+        - name: CLASTIX
+          url: https://clastix.io
+        - name: Kamaji
+          url: https://kamaji.clastix.io
+        - name: support
+          url: https://clastix.io/support
+      artifacthub.io/operator: "true"
+      artifacthub.io/operatorCapabilities: Full Lifecycle
+    apiVersion: v2
+    appVersion: 3.5.17
+    created: "2025-09-10T13:08:40.537669783Z"
+    description: Helm chart for deploying a multi-tenant `etcd` cluster.
+    digest: 09f307158b0fb96b80445f9bd5d9a6205c35ba50c84dc323de870d5bdc4c90d7
+    home: https://github.com/clastix/kamaji-etcd
+    icon: https://github.com/clastix/kamaji/raw/master/assets/logo-colored.png
+    kubeVersion: '>=1.22.0-0'
+    maintainers:
+    - email: adriano@clastix.io
+      name: Adriano Pezzuto
+      url: https://clastix.io
+    - email: dario@clastix.io
+      name: Dario Tranchitella
+      url: https://clastix.io
+    name: kamaji-etcd
+    sources:
+    - https://github.com/clastix/kamaji-etcd
+    type: application
+    urls:
+    - https://clastix.github.io/charts/kamaji-etcd-0.13.0.tgz
+    version: 0.13.0
+  - annotations:
+      artifacthub.io/changes: |
         - kind: fixed
           description: affinity and tolerations for ancillary jobs.
       artifacthub.io/links: |
@@ -3139,4 +3185,4 @@ entries:
     urls:
     - https://clastix.github.io/charts/vsphere-csi-0.1.0.tgz
     version: 0.1.0
-generated: "2025-09-10T12:23:58.64804527Z"
+generated: "2025-09-10T13:08:40.536296251Z"
