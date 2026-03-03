@@ -2416,6 +2416,41 @@ entries:
   kamaji-etcd:
   - annotations:
       artifacthub.io/changes: |
+        - kind: added
+          description: Persistent Volume Claim retention policy
+      artifacthub.io/links: |
+        - name: CLASTIX
+          url: https://clastix.io
+        - name: Kamaji
+          url: https://kamaji.clastix.io
+        - name: support
+          url: https://clastix.io/support
+      artifacthub.io/operator: "true"
+      artifacthub.io/operatorCapabilities: Full Lifecycle
+    apiVersion: v2
+    appVersion: 3.5.17
+    created: "2026-03-03T17:43:14.415642973Z"
+    description: Helm chart for deploying a multi-tenant `etcd` cluster.
+    digest: b8e88d5f535c0d328b46a3ffb5b543d0056e9370cb503e5a11e998d1f555f209
+    home: https://github.com/clastix/kamaji-etcd
+    icon: https://github.com/clastix/kamaji/raw/master/assets/logo-colored.png
+    kubeVersion: '>=1.22.0-0'
+    maintainers:
+    - email: adriano@clastix.io
+      name: Adriano Pezzuto
+      url: https://clastix.io
+    - email: dario@clastix.io
+      name: Dario Tranchitella
+      url: https://clastix.io
+    name: kamaji-etcd
+    sources:
+    - https://github.com/clastix/kamaji-etcd
+    type: application
+    urls:
+    - https://clastix.github.io/charts/kamaji-etcd-0.15.0.tgz
+    version: 0.15.0
+  - annotations:
+      artifacthub.io/changes: |
         - kind: feat
           description: custom certmanager object names and customisations
       artifacthub.io/links: |
@@ -3287,4 +3322,4 @@ entries:
     urls:
     - https://clastix.github.io/charts/vsphere-csi-0.1.0.tgz
     version: 0.1.0
-generated: "2026-03-03T09:57:54.059732056Z"
+generated: "2026-03-03T17:43:14.414415857Z"
